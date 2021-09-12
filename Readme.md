@@ -2,6 +2,8 @@
 
 ### Usage
 python midi2arduino <MIDIFILE> like e.g. python midi2arduino ./pacman.mid
+  
+  
 3 separate arrays are generated containing notes (frequencies), velocities (on and off) and note durations (in ms) for the given midi file.
 The generated velocity  only indicate  note on and off due to the buzzer limitations.
 The midi file is expected to contain only one track. Only track 0 is processed.
