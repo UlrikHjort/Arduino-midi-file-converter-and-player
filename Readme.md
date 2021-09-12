@@ -1,7 +1,9 @@
 # Single track midi file to Arduino converter
 
 ### Usage
-python midi2arduino <MIDIFILE> like e.g. python midi2arduino ./pacman.mid
+python midi2arduino MIDIFILE 
+
+e.g. python midi2arduino ./pacman.mid
   
   
 3 separate arrays are generated containing notes (frequencies), velocities (on and off) and note durations (in ms) for the given midi file.
